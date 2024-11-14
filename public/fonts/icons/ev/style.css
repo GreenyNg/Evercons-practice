@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'evercons';
+  src:  url('evercons.eot?bo4rvr');
+  src:  url('evercons.eot?bo4rvr#iefix') format('embedded-opentype'),
+    url('evercons.ttf?bo4rvr') format('truetype'),
+    url('evercons.woff?bo4rvr') format('woff'),
+    url('evercons.svg?bo4rvr#evercons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.ev {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'evercons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ev-alert:before {
+  content: "\e900";
+}
+.ev-activity:before {
+  content: "\e901";
+}
+.ev-align-center:before {
+  content: "\e902";
+}
+.ev-arrow-down-circle:before {
+  content: "\e903";
+}
+.ev-arrow-down:before {
+  content: "\e904";
+}
+.ev-arrow-left-circle:before {
+  content: "\e905";
+}
+.ev-arrow-left:before {
+  content: "\e906";
+}
+.ev-arrow-right-circle:before {
+  content: "\e907";
+}
+.ev-arrow-right:before {
+  content: "\e908";
+}
+.ev-screen:before {
+  content: "\e909";
+}
